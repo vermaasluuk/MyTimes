@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+.header-container {
+  font: bold 14px Verdana;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-text {
+  color: MediumAquamarine
+}
+
+.nav {
+  color: black;
+}
