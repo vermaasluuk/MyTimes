@@ -3,18 +3,135 @@ body {
   padding: 0;
 }
 
-/* HEADER */
+    /* HEADER */
+
 .header-container {
   font: bold 14px Verdana;
+  height: 80px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
 }
 
-.header-text {
-  color: MediumAquamarine
+  .header-logo {
+    color: MediumAquamarine;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .nav {
+    color: black;
+    margin-right: 30px;
+  }
+
+  #logo-text {
+    margin-left: 10px;
+  }
+
+    /* CONTENT */
+
+.content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+  font-family: Georgia;
 }
 
-.nav {
+/* LARGE LEFT CONTAINER */
+
+.large {
+  min-width: 630px;
+  max-width: 630px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+  #content-one {
+    height: 530px;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+    background-repeat-y: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.flex-one{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+  #content-two {
+    width: 300px
+  }
+
+  #content-three {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  }
+
+  #content-four {
+    width: 300px
+  }
+
+  #content-five {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  }
+
+.medium {
+  background-color: blue;
+  width: 300px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.small {
+  background-color: blue;
+  width: 240px;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+/* TEXT STYLING */
+
+.header-image {
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.sub-header-text {
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+.sub-header-image {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.content-text{
+  font-size: 17px;
   color: black;
 }
